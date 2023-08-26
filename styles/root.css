@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+:root {
+  --cor-primaria: #f1f1f6;
+  --cor-secundaria: #e1ccec;
+  --cor-terciaria: #c9b6e4;
+  --cor-quartenaria: #5207a7;
+  --font-principal: "Work Sans", sans-serif;
+}

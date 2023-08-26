@@ -1,0 +1,75 @@
+@import "./root.css";
+
+body,
+html,
+#root {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-principal);
+  background-color: var(--cor-primaria);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  gap: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar__links {
+  color: var(--cor-quartenaria);
+  text-decoration: none;
+}
+
+.navbar__links:hover {
+  color: var(--cor-terciaria);
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  padding: 0 10% 0 10%;
+}
+
+.principal__apresentacao {
+  margin-top: 3%;
+}
+
+.principal__apresentacao_tranform {
+  text-transform: uppercase;
+  color: var(--cor-quartenaria);
+  font-weight: 600;
+}
+
+.redes-sociais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%; /* Adjust as needed */
+  padding: 70px; /* Adjust as needed */
+}
+
+.redes-sociais__links {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border: 3px solid var(--cor-quartenaria);
+  border-radius: 7px;
+  padding: 10px; /* Adjust as needed */
+  min-width: 130px;
+  max-width: 130px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.redes-sociais__links__img {
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  margin-right: 10px; /* Adjust as needed */
+}
