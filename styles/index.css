@@ -105,3 +105,30 @@ html,
   max-width: 500px;
   border-radius: 7px;
 }
+
+/*currículo page*/
+
+.curriculo-page {
+  display: flex;
+  justify-content: center;
+  padding: 0 10% 0 10%;
+}
+
+.curriculo-page__todas__informacoes {
+  margin-right: 50%;
+}
+
+.curriculo-page__titles {
+  color: var(--cor-quartenaria);
+  text-transform: uppercase;
+}
+
+.curriculo-page__listas {
+  list-style-type: square;
+  margin-left: -5%;
+  margin-bottom: 1%;
+}
+
+.curriculo-page__links {
+  text-decoration: none;
+}
